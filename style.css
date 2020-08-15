@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: coral;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    background-color: lightblue;
+    color: darkgoldenrod;
+    padding: 10%;
+    border-radius: 25px;
+    line-height: 3em;
+}
+
+.quote {
+    line-height: normal;
+}
+
+.main {
+    padding-bottom: 1em;
+}
+
+.author {
+    color: darkolivegreen;
+    padding-top: 2em;
+}
+
+.generate {
+    border: none;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    padding: 7px 15px;
+    display: inline-block;
+
+}
